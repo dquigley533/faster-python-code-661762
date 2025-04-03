@@ -3,6 +3,9 @@ node_modules
 .tmp
 npm-debug.log
 
+.venv
+
+*~
 *.dat
 *.lprof
 *.out
