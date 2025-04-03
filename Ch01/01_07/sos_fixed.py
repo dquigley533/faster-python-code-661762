@@ -3,11 +3,11 @@
 @profile
 def sum_of_diffs(vals):
     """Compute sum of diffs"""
-    vals2 = vals[1:]
 
     total = 0
-    for v1, v2 in zip(vals, vals2):
-        total += v2 - v1
+
+    for i in range(1,len(vals)):
+        total += vals[i] - vals[i-1]
 
     return total
 

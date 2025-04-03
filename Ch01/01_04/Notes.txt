@@ -1,0 +1,17 @@
+SnakeViz binary doesn't seem to get added to path on MacOS?
+
+Used:
+
+python -m snakeviz prof.py
+
+instead.
+
+Current version of SnakeViz has a default view different to that in the video. Can be switched using the controls on the LHS.
+
+In IPython/Jupyter:
+
+%run -n thing.py
+%prun -s <function_to_profile>
+
+
+

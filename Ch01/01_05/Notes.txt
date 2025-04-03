@@ -1,0 +1,6 @@
+As per previous section, on MacOS needed to use
+
+python -m kernprof -l prof.py
+
+as kernprof wasn't added to path.
+
