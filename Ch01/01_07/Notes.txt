@@ -1,0 +1,5 @@
+As per other examples mprof wasn't in my path after installing memory_profiler. Used:
+
+python -m mprof sos.py
+
+instead.

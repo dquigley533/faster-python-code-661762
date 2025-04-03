@@ -1,6 +1,6 @@
 """memory_profiler example"""
 
-@profile
+
 def sum_of_diffs(vals):
     """Compute sum of diffs"""
     vals2 = vals[1:]
@@ -13,5 +13,5 @@ def sum_of_diffs(vals):
 
 
 if __name__ == '__main__':
-    vals = list(range(1, 1_000_000, 3))
+    vals = list(range(1, 100_000_000, 3))
     print(sum_of_diffs(vals))
